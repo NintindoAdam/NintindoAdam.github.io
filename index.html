@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimeBox Legal Docs</title>
+  <style>
+    :root {
+      --bg: #f4f4f8;
+      --card: #ffffff;
+      --accent: #ff9500;
+      --muted: #6b7280;
+      --text: #0f172a;
+      --border: rgba(0,0,0,0.06);
+      --shadow: 0 18px 45px rgba(0,0,0,0.10);
+      --max-width: 960px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0f;
+        --card: #18181b;
+        --accent: #ff9500;
+        --muted: #e5e7eb;
+        --text: #f8fafc;
+        --border: rgba(255,255,255,0.08);
+        --shadow: 0 18px 45px rgba(0,0,0,0.35);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.8), transparent 36%),
+          radial-gradient(circle at 80% 0%, rgba(255,255,255,0.7), transparent 32%),
+          var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px 64px;
+      line-height: 1.6;
+    }
+    .page {
+      width: 100%;
+      max-width: var(--max-width);
+      padding: 0 4px;
+    }
+    header {
+      background: var(--card);
+      color: var(--text);
+      padding: 28px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      margin-bottom: 22px;
+    }
+    header h1 { margin: 0 0 10px; font-size: 30px; letter-spacing: -0.01em; font-weight: 700; }
+    header p { margin: 0; color: var(--muted); font-size: 17px; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,149,0,0.14);
+      color: var(--accent);
+      border: 1px solid rgba(255,149,0,0.4);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    nav a {
+      text-decoration: none;
+      background: var(--card);
+      color: var(--text);
+      font-weight: 600;
+      padding: 12px 16px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      transition: transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+    }
+    nav a:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0,0,0,0.14); opacity: 0.96; }
+    nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+    section {
+      background: var(--card);
+      margin-top: 24px;
+      padding: 26px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    section h2 { margin-top: 0; letter-spacing: -0.01em; }
+    section p { color: var(--muted); }
+    .meta { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,149,0,0.14);
+      color: var(--accent);
+      border: 1px solid rgba(255,149,0,0.4);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .legal {
+      margin-top: 8px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+    .legal h3 {
+      color: var(--text);
+      margin: 18px 0 8px;
+      font-size: 18px;
+      letter-spacing: -0.01em;
+    }
+    .legal h4 {
+      color: var(--text);
+      margin: 14px 0 6px;
+      font-size: 16px;
+    }
+    .legal p { margin: 0 0 10px; }
+    .legal ul, .legal ol { padding-left: 20px; margin: 6px 0 12px; }
+    .legal li { margin-bottom: 6px; }
+    .placeholder { color: #e879f9; font-weight: 600; }
+    .list { padding-left: 20px; color: var(--muted); }
+    .legal a, .meta a, footer a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .legal a:hover, .meta a:hover, footer a:hover { text-decoration: underline; }
+    .legal a:focus-visible, .meta a:focus-visible, footer a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+    footer { text-align: center; color: var(--muted); margin-top: 32px; font-size: 14px; }
+    @media (max-width: 640px) {
+      header h1 { font-size: 24px; }
+      body { padding: 20px 12px 48px; }
+      nav a { width: 100%; text-align: center; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>TimeBox Legal</h1>
+      <p>Choose a document to view the full policy.</p>
+      <div class="badge" aria-label="Site last updated">Updated January 3, 2026</div>
+      <nav>
+        <a href="terms.html">View Terms of Service</a>
+        <a href="privacy.html">View Privacy Policy</a>
+      </nav>
+    </header>
+
+    <section>
+      <div class="pill">Terms of Service</div>
+      <div class="meta">Full terms for TimeBox, including eligibility, acceptable use, subscriptions, limitations, and governing law.</div>
+      <h2>TimeBox Terms</h2>
+      <p class="legal">Read the complete Terms of Service for TimeBox. Includes subscription terms, acceptable use, intellectual property, disclaimers, and dispute resolution.</p>
+      <p><a href="terms.html" class="badge" aria-label="Open Terms of Service">Open Terms of Service</a></p>
+    </section>
+
+    <section>
+      <div class="pill">Privacy Policy</div>
+      <div class="meta">How TimeBox handles your data: what is stored locally, what is not collected, and your rights.</div>
+      <h2>TimeBox Privacy</h2>
+      <p class="legal">Read the full Privacy Policy for TimeBox. Covers on-device storage, no tracking, no analytics, rights, deletion, and compliance.</p>
+      <p><a href="privacy.html" class="badge" aria-label="Open Privacy Policy">Open Privacy Policy</a></p>
+    </section>
+
+    <footer>
+      Host this site in your GitHub Pages repository. Links above open separate pages for each document.
+    </footer>
+  </div>
+</body>
+</html>

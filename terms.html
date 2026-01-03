@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimeBox Terms of Service</title>
+  <style>
+    :root {
+      --bg: #f4f4f8;
+      --card: #ffffff;
+      --accent: #ff9500;
+      --muted: #6b7280;
+      --text: #0f172a;
+      --border: rgba(0,0,0,0.06);
+      --shadow: 0 18px 45px rgba(0,0,0,0.10);
+      --max-width: 960px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0f;
+        --card: #18181b;
+        --accent: #ff9500;
+        --muted: #e5e7eb;
+        --text: #f8fafc;
+        --border: rgba(255,255,255,0.08);
+        --shadow: 0 18px 45px rgba(0,0,0,0.35);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.8), transparent 36%),
+          radial-gradient(circle at 80% 0%, rgba(255,255,255,0.7), transparent 32%),
+          var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px 64px;
+      line-height: 1.6;
+    }
+    .page { width: 100%; max-width: var(--max-width); padding: 0 4px; }
+    header {
+      background: var(--card);
+      color: var(--text);
+      padding: 28px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      margin-bottom: 22px;
+    }
+    header h1 { margin: 0 0 10px; font-size: 30px; letter-spacing: -0.01em; font-weight: 700; }
+    header p { margin: 0; color: var(--muted); font-size: 17px; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,149,0,0.14);
+      color: var(--accent);
+      border: 1px solid rgba(255,149,0,0.4);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+      margin-top: 8px;
+    }
+    nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+    nav a {
+      text-decoration: none;
+      background: var(--card);
+      color: var(--text);
+      font-weight: 600;
+      padding: 12px 16px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      transition: transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.10);
+    }
+    nav a:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0,0,0,0.14); opacity: 0.96; }
+    nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    section {
+      background: var(--card);
+      padding: 26px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    section h2 { margin-top: 0; letter-spacing: -0.01em; }
+    section p { color: var(--muted); }
+    .meta { font-size: 14px; color: var(--muted); margin-bottom: 12px; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,149,0,0.14);
+      color: var(--accent);
+      border: 1px solid rgba(255,149,0,0.4);
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .legal {
+      margin-top: 8px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+    .legal h3 { color: var(--text); margin: 18px 0 8px; font-size: 18px; letter-spacing: -0.01em; }
+    .legal h4 { color: var(--text); margin: 14px 0 6px; font-size: 16px; }
+    .legal p { margin: 0 0 10px; }
+    .legal ul, .legal ol { padding-left: 20px; margin: 6px 0 12px; }
+    .legal li { margin-bottom: 6px; }
+    .legal a, .meta a, footer a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .legal a:hover, .meta a:hover, footer a:hover { text-decoration: underline; }
+    .legal a:focus-visible, .meta a:focus-visible, footer a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+    footer { text-align: center; color: var(--muted); margin-top: 32px; font-size: 14px; }
+    @media (max-width: 640px) {
+      header h1 { font-size: 24px; }
+      body { padding: 20px 12px 48px; }
+      nav a { width: 100%; text-align: center; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>TimeBox Terms of Service</h1>
+      <p>Full terms and conditions for using TimeBox on iOS.</p>
+      <div class="badge" aria-label="Last updated">Last updated: January 3, 2026</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <section>
+      <div class="pill">Terms of Service</div>
+      <div class="meta">Effective Date: January 3, 2026 · Version: 1.0 · Developer: Adam Markocki (Krakow, Poland) · Contact: <a href="mailto:markockidev@icloud.com">markockidev@icloud.com</a></div>
+      <div class="legal">
+        <h3>1. Introduction and Acceptance of Terms</h3>
+        <p>Welcome to TimeBox. These Terms of Service constitute a legally binding agreement between you and TimeBox governing your access to and use of the TimeBox mobile application available on the Apple App Store. By downloading, installing, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, cease using the App and delete it from your device.</p>
+
+        <h3>2. Service Description</h3>
+        <p>TimeBox is a minimalist iOS time management app that helps users organize daily schedules using time-blocking. Features include:</p>
+        <ul>
+          <li>Daily planning with up to three top priority tasks and unlimited secondary tasks</li>
+          <li>Time block scheduling with customizable start times and durations</li>
+          <li>Task management to track completion and progress</li>
+          <li>Brain Dump space for capturing thoughts and ideas</li>
+          <li>Archive to review historical daily plans</li>
+          <li>Local notifications for scheduled time blocks</li>
+          <li>Calendar view of daily schedules</li>
+          <li>Local data storage on your device</li>
+        </ul>
+
+        <h3>3. User Eligibility</h3>
+        <h4>3.1 Age Requirements</h4>
+        <p>You must be at least 13 years old. If between 13 and 18 (or age of majority), you may use the App only under supervision of a parent or legal guardian who agrees to these Terms.</p>
+        <h4>3.2 Geographic Restrictions</h4>
+        <p>The App is available worldwide through the Apple App Store; subscriptions may be limited to regions where Apple In-App Purchase is supported.</p>
+        <h4>3.3 Capacity</h4>
+        <p>By using the App, you represent that you have legal capacity, are not prohibited by law, and that information you provide is accurate and current.</p>
+
+        <h3>4. Account and Authentication Terms</h3>
+        <h4>4.1 Sign in with Apple</h4>
+        <p>When you sign in with Apple, we collect only the user identifier provided by Apple. Your email and name may be collected during first-time sign-in (at Apple's discretion). You may hide your email using Apple's private relay. Authentication data is stored locally on your device using Apple's secure mechanisms.</p>
+        <h4>4.2 Account Security</h4>
+        <p>You are responsible for the security of your Apple ID credentials, all activities through your session, and notifying us of unauthorized access.</p>
+        <h4>4.3 No Account Required</h4>
+        <p>The App can be used without authentication. Time management features are available to all users with active access (trial or subscription).</p>
+        <h4>4.4 Account Termination</h4>
+        <p>You may delete your account at any time through settings. Authentication credentials will be removed from the device; locally stored data may remain unless manually deleted. Active subscriptions must be cancelled separately through your Apple ID.</p>
+
+        <h3>5. Acceptable Use Policy</h3>
+        <h4>5.1 Permitted Use</h4>
+        <p>Use the App solely for personal, non-commercial productivity in accordance with these Terms and applicable laws.</p>
+        <h4>5.2 Prohibited Uses</h4>
+        <ul>
+          <li>Unlawful use or violation of regulations</li>
+          <li>Reverse engineering, decompiling, disassembling, or deriving source</li>
+          <li>Modifying or creating derivative works</li>
+          <li>Removing proprietary notices</li>
+          <li>Using automated systems (bots, scrapers) to access the App</li>
+          <li>Interfering with or disrupting the App</li>
+          <li>Attempting unauthorized access</li>
+          <li>Impairing the App or overloading it</li>
+          <li>Collecting personally identifiable information</li>
+          <li>Impersonation or misrepresentation</li>
+          <li>Transmitting viruses or malicious code</li>
+          <li>Selling, renting, leasing, sublicensing, or commercially exploiting the App</li>
+          <li>Uploading or distributing illegal, harmful, or infringing content</li>
+        </ul>
+        <h4>5.3 Enforcement</h4>
+        <p>We may investigate and take legal action, including terminating access, for violations of this policy.</p>
+
+        <h3>6. Intellectual Property Rights</h3>
+        <h4>6.1 App Ownership</h4>
+        <p>The App and all related IP are owned by TimeBox or its licensors and protected by law.</p>
+        <h4>6.2 Limited License</h4>
+        <p>Subject to compliance, we grant a limited, non-exclusive, non-transferable, revocable license to download, install, and use the App for personal, non-commercial purposes.</p>
+        <h4>6.3 Trademarks</h4>
+        <p>TimeBox and associated logos are trademarks of TimeBox; no use without permission.</p>
+        <h4>6.4 User-Generated Content</h4>
+        <p>Your data (tasks, plans, notes, settings) remains your property and is stored locally. We do not access it.</p>
+        <h4>6.5 Feedback</h4>
+        <p>Feedback you provide may be used by us without obligation.</p>
+
+        <h3>7. Free Trial and Subscription Terms</h3>
+        <h4>7.1 Free Trial</h4>
+        <p>New users may activate a 7-day free trial with full access once per user; no payment info required.</p>
+        <h4>7.2 Trial Eligibility</h4>
+        <p>The trial is available only to users who have not previously activated a trial.</p>
+        <h4>7.3 Subscription Plans</h4>
+        <ul>
+          <li>Monthly: product ID com.timebox.monthly.subscription; billed monthly; auto-renews.</li>
+          <li>Annual: product ID com.timebox.yearly.subscription; billed annually; about 20 percent savings; auto-renews.</li>
+        </ul>
+        <h4>7.4 Pricing</h4>
+        <p>Prices are shown in local currency from the App Store, subject to change with 30 days' notice; taxes may apply.</p>
+        <h4>7.5 Payment Processing</h4>
+        <p>Payments are processed by Apple via In-App Purchase. We do not collect or process payment data.</p>
+        <h4>7.6 Automatic Renewal</h4>
+        <p>Subscriptions renew unless cancelled at least 24 hours before period end. Renewal charges use current rates.</p>
+        <h4>7.7 Managing Subscriptions</h4>
+        <p>Manage or cancel through iOS Settings > [Your Name] > Subscriptions, or App Store > Profile > Subscriptions > TimeBox.</p>
+        <h4>7.8 Cancellation Policy</h4>
+        <p>Cancel anytime; access continues through the paid period; no partial refunds.</p>
+        <h4>7.9 Refund Policy</h4>
+        <p>All purchases are final and non-refundable except as required by law or by Apple. Refund requests go through <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener noreferrer">reportaproblem.apple.com</a>.</p>
+        <h4>7.10 Free Access After Trial</h4>
+        <p>If you do not subscribe after trial expiration, access to features ends until you subscribe.</p>
+        <h4>7.11 Subscription Benefits</h4>
+        <p>Active subscribers get full feature access, archive access, notifications, and future updates during the subscription term.</p>
+        <h4>7.12 No Lifetime Purchase</h4>
+        <p>The App is available only via subscription; no lifetime or one-time purchase.</p>
+
+        <h3>8. Disclaimers and Limitation of Liability</h3>
+        <h4>8.1 As Is; As Available</h4>
+        <p>The App is provided as is and as available without warranties of any kind, including implied warranties of merchantability, fitness for a particular purpose, non-infringement, accuracy, uninterrupted service, or error correction.</p>
+        <h4>8.2 No Warranty of Accuracy</h4>
+        <p>We do not warrant that the App meets your requirements, that notifications deliver on time, that data is preserved, or that compatibility is universal.</p>
+        <h4>8.3 Local Storage Disclaimer</h4>
+        <p>Data is stored locally. You are responsible for backups; we are not responsible for data loss, corruption, or inability to transfer between devices.</p>
+        <h4>8.4 Notification Disclaimer</h4>
+        <p>Notification delivery, timing, and accuracy are not guaranteed.</p>
+        <h4>8.5 Third-Party Services</h4>
+        <p>The App relies on Apple services (iOS, StoreKit, notifications, Sign in with Apple). We are not responsible for interruptions or changes to these services.</p>
+        <h4>8.6 Limitation of Liability</h4>
+        <p>To the maximum extent permitted by law, TimeBox and its affiliates are not liable for indirect, incidental, special, consequential, or punitive damages. Total liability is limited to the greater of amounts paid in the prior 12 months or 100 USD, where permitted.</p>
+        <h4>8.7 Basis of the Bargain</h4>
+        <p>Pricing and terms rely on these disclaimers and limitations, which form an essential basis of the bargain.</p>
+        <h4>8.8 Essential Purpose</h4>
+        <p>Limitations survive even if a remedy fails of its essential purpose.</p>
+        <h4>8.9 Jurisdictional Limits</h4>
+        <p>Where exclusions are not allowed, liability is limited to the greatest extent permitted.</p>
+
+        <h3>9. Privacy and Data Protection</h3>
+        <h4>9.1 Privacy Policy</h4>
+        <p>Your use is governed by our Privacy Policy, incorporated by reference.</p>
+        <h4>9.2 Local Data Storage</h4>
+        <p>All user-generated content is stored locally. We do not transmit or access your data and do not back it up or share it.</p>
+        <h4>9.3 Apple ID Information</h4>
+        <p>If you sign in with Apple, we may collect a unique Apple user identifier and, if shared, your email and name. Stored locally and used for authentication only.</p>
+        <h4>9.4 Analytics and Diagnostics</h4>
+        <p>We do not collect analytics or diagnostics. Apple may collect aggregate App Store statistics.</p>
+        <h4>9.5 Data Security</h4>
+        <p>Data is protected by iOS security features, but absolute security is not guaranteed. You are responsible for device security and backups.</p>
+        <h4>9.6 Children's Privacy</h4>
+        <p>We do not knowingly collect data from children under 13. Contact us if you believe such data was collected.</p>
+
+        <h3>10. Updates and Modifications</h3>
+        <h4>10.1 App Updates</h4>
+        <p>We may release updates (features, fixes, security, design changes, compatibility). Updates may be automatic or require action and may change or remove features.</p>
+        <h4>10.2 Mandatory Updates</h4>
+        <p>We may require updates for security, compatibility, or legal reasons.</p>
+        <h4>10.3 Modification of Terms</h4>
+        <p>We may modify these Terms. Material changes update the Last Updated date and may be notified in-app or via email. Continued use after the effective date constitutes acceptance.</p>
+        <h4>10.4 Modification of Services</h4>
+        <p>We may modify, suspend, or discontinue aspects of the App, change pricing with notice, and impose limits.</p>
+        <h4>10.5 No Obligation to Update</h4>
+        <p>We are not obligated to provide updates, maintain backward compatibility, or preserve specific features.</p>
+
+        <h3>11. Termination</h3>
+        <h4>11.1 Termination by You</h4>
+        <p>You may terminate by deleting the App, cancelling subscriptions via Apple ID, and deleting your account (if signed in).</p>
+        <h4>11.2 Termination by Us</h4>
+        <p>We may suspend or terminate access for violations, fraud, legal requests, technical or security issues, or discontinuation of the App.</p>
+        <h4>11.3 Effect of Termination</h4>
+        <p>Rights to use cease immediately; delete the App. Locally stored data may remain until manually removed. Subscription charges continue until cancelled via Apple; no refunds for unused time unless required by law. Provisions that should survive will survive.</p>
+        <h4>11.4 Subscription Cancellation</h4>
+        <p>Ending App use does not cancel subscriptions; cancel through Apple ID settings.</p>
+        <h4>11.5 Data After Termination</h4>
+        <p>We do not retain personal data; you are responsible for backups and deletion on your device.</p>
+
+        <h3>12. Third-Party Services and Links</h3>
+        <h4>12.1 Apple App Store</h4>
+        <p>Distribution is via the Apple App Store and subject to Apple's terms.</p>
+        <h4>12.2 StoreKit and In-App Purchases</h4>
+        <p>Subscriptions use Apple's StoreKit and are governed by Apple policies.</p>
+        <h4>12.3 Sign in with Apple</h4>
+        <p>If used, you agree to Apple's terms for that service.</p>
+        <h4>12.4 iOS Platform</h4>
+        <p>The App relies on iOS frameworks; we are not responsible for changes that affect functionality.</p>
+        <h4>12.5 Third-Party Links</h4>
+        <p>Links to third-party resources are not under our control; we are not responsible for their availability or content.</p>
+        <h4>12.6 No Endorsement</h4>
+        <p>Links do not imply endorsement.</p>
+        <h4>12.7 Third-Party Terms</h4>
+        <p>Your use of third-party services is governed by their terms and privacy policies.</p>
+
+        <h3>13. Apple-Specific Terms</h3>
+        <p>You acknowledge these Terms are between you and TimeBox, not Apple. Apple has no obligation for support or content and is a third-party beneficiary able to enforce these Terms.</p>
+        <p>You represent you are not in a sanctioned country and not on prohibited lists. Infringement claims are TimeBox's responsibility. Apple provides no warranty; in case of failure, you may notify Apple for a refund (if any). Volume Purchase Program acquisitions may include additional restrictions.</p>
+
+        <h3>14. Governing Law and Dispute Resolution</h3>
+        <p>These Terms are governed by Polish law. Disputes will be brought in courts located in Krakow, Poland, and you consent to jurisdiction and venue there.</p>
+        <p>Before filing a claim, both parties will attempt informal resolution via email for 60 days. Class actions are waived; claims must be brought individually. The one-year statute of limitations applies to claims unless otherwise required by law.</p>
+
+        <h3>15. General Provisions</h3>
+        <p>These Terms, with the Privacy Policy, are the entire agreement. No waiver occurs by delay. If any provision is invalid, remaining terms stay effective. You may not assign without consent; we may assign without notice. No third-party beneficiaries except as noted for Apple. We are not liable for force majeure events. Notices may be provided via the App, email, or App Store. Export control laws apply. Parties are independent contractors.</p>
+      </div>
+    </section>
+
+    <footer>
+      <a href="index.html">Back to Legal Home</a>
+    </footer>
+  </div>
+</body>
+</html>
