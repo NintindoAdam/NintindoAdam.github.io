@@ -1,6 +1,6 @@
 # NintindoAdam.github.io
 
-# TimeBox Privacy Policy - Quick Reference
+# TimeBox Privacy Policy
 
 **Version:** 1.0
 **Effective Date:** January 3, 2026
