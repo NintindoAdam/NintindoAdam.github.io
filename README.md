@@ -1,5 +1,3 @@
-# NintindoAdam.github.io
-
 # TimeBox Privacy Policy
 
 **Version:** 1.0
