@@ -1,0 +1,1 @@
+# NintindoAdam.github.io
