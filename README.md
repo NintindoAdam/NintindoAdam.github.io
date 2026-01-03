@@ -269,10 +269,4 @@ A: We can't provide what we don't have. All data is on your device.
 
 ---
 
-**For the full legal privacy policy, visit:**  
-Settings → Privacy Policy (in app)  
-Or: [Your hosted URL once uploaded]
-
----
-
 © 2026 Adam Markocki | Krakow, Poland | markockidev@icloud.com
